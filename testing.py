@@ -16,7 +16,7 @@ driver.get("https://app.skill-edge.com/#/")
 # time.sleep(90)
 
 
-driver.find_element(By.ID, "formBasicEmail").send_keys("mitesh.skilledge@gmail.com")
-driver.find_element(By.ID, "formBasicPassword").send_keys("Mitesh@2022$")
+driver.find_element(By.ID, "formBasicEmail").send_keys("@gmail.com")
+driver.find_element(By.ID, "formBasicPassword").send_keys("Password")
 
 driver.find_element(By.CLASS_NAME, "login-btn btn btn-secondary").click()
